@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgb(1, 238, 255);
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: 180px;
+    left: 10px;
+}
+
+.container{
+    border: 1px solid black;
+    width: 38%;
+    height: 35rem;
+    background-color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+    left: 600px;
+    top: 200px;
+}
+
+.picture{
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.container-text{
+    text-align: left;
+    margin: 25px 0 0 20px;
+}
+.text-p1{
+    font-size: 30px;
+}
+
+.text-p2{
+    font-size: 22px;
+    color: #b4b2b2;
+    padding: 7px 0 0 0;
+}
+
+.divpic{
+    display: flex;
+}
+
+.divpic:hover{
+    background-color: #cac9c97c;
+    cursor: pointer;
+}
+
+.icon{
+    position: relative;
+    left: 400px;
+    bottom: 23px;
+}
+
+.trash-icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 70px;
+    cursor: pointer;
+}
+
+.edit-icon{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 80px;
+    cursor: pointer;
+}
